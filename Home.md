@@ -27,7 +27,34 @@
 | 强制报番型插件   | 由 (aoarashi1988)[https://github.com/aoarashi1988] 开发                                                                                                                                                                                                                             |
 | 桌布制作工具     | 简单的桌布制作工具，可以快速生成桌布图像                                                                                                                                                                                                                                            |
 
-## TODO
+## 下载与更新
+### 下载
+#### 直接获取最新版压缩文档
+
+- [Github Release](https://github.com/MajsoulPlus/majsoul-plus-client/releases)
+
+#### 社区维护版本（非官方）
+
+| 平台                  | 维护者                      | 安装命令                         |
+| --------------------- | --------------------------- | -------------------------------- |
+| Homebrew Cask / macOS | @CaptainYukinoshitaHachiman | `brew cask install majsoul-plus` |
+
+### 自动更新
+
+雀魂 Plus 浏览器内置了一个基础的自动更新功能，会在可用情况下尝试从 Github 自动获取最新发布版本并提醒更新，您可以在「设置」-「更新」中设置您要获取的版本发布类型。
+
+雀魂 Plus 由于会尝试从 Github 服务器读取更新信息和下载资源，在中国大陆可能会因为不可抗力无法正常下载更新补丁，您可以重新下载完整浏览器进行覆盖安装。
+
+雀魂 Plus 对于大版本更新不会尝试自动更新，您需要手动访问新版发布页面进行下载和安装操作，还请见谅。
+
+## 快速上手
+
+您可以阅读这篇文章[快速上手](https://github.com/MajsoulPlus/majsoul-plus-client/wiki/QuickStart)
+
+## 扩展阅读
+
+- [快捷键](https://github.com/MajsoulPlus/majsoul-plus-client/wiki/Shortcuts)
+- [常见问题](https://github.com/MajsoulPlus/majsoul-plus-client/wiki/FAQ)
 
 ## 关于 Wiki
 
