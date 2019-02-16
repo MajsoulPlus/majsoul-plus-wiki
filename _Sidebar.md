@@ -1,0 +1,6 @@
+- [Wiki 主页](https://github.com/MajsoulPlus/majsoul-plus/wiki/Home)
+- [快速上手](https://github.com/MajsoulPlus/majsoul-plus/wiki/QuickStart)
+- 常用功能
+  - [设置项](https://github.com/MajsoulPlus/majsoul-plus/wiki/Settings)
+  - [快捷键](https://github.com/MajsoulPlus/majsoul-plus/wiki/Shortcuts)
+- [常见问题](https://github.com/MajsoulPlus/majsoul-plus/wiki/FAQ)
