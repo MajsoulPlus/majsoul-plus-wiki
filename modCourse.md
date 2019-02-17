@@ -5,9 +5,9 @@
 ## 事前准备
 
 * 一个文本编辑器
-> 请不要使用 Windows 自带的 NotePad <br>请不要使用 Windows 自带的 NotePad <br>请不要使用 Windows 自带的 NotePad <br>
+> 请不要使用 Windows 自带的 Notepad <br>请不要使用 Windows 自带的 Notepad <br>请不要使用 Windows 自带的 Notepad <br>
 
-> 推荐是 [NotePad++](https://notepad-plus-plus.org/) 或 [VSCode](https://code.visualstudio.com/) , 如果要做一个优质的 Mod 的话,一个好的文本编辑器可以减少你的**很多很多很多**麻烦
+> 推荐是 [Notepad++](https://Notepad-plus-plus.org/) 或 [VSCode](https://code.visualstudio.com/) , 如果要做一个优质的 Mod 的话,一个好的文本编辑器可以减少你的**很多很多很多**麻烦
 
 * [熟悉 Json 的格式](https://github.com/MajsoulPlus/majsoul-plus/wiki/Format)
 
