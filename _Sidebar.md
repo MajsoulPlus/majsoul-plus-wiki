@@ -4,4 +4,4 @@
   - [设置项](https://github.com/MajsoulPlus/majsoul-plus/wiki/Settings)
   - [快捷键](https://github.com/MajsoulPlus/majsoul-plus/wiki/Shortcuts)
 - [常见问题](https://github.com/MajsoulPlus/majsoul-plus/wiki/FAQ)
-- [mod制作教程](https://github.com/MajsoulPlus/majsoul-plus/wiki/ModCourse)
+- [制作模组](https://github.com/MajsoulPlus/majsoul-plus/wiki/ModCourse)

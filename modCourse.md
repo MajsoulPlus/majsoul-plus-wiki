@@ -1,23 +1,22 @@
-# Mod制作入门
+# 模组制作入门
 
-本页面将会从零开始一步一步教你做『[雀魂Plus](https://github.com/MajsoulPlus/majsoul-plus)』的Mod
+本页面将会从零开始一步一步教你制作一个『[雀魂 Plus](https://github.com/MajsoulPlus/majsoul-plus)』的模组。
 
 ## 事前准备
 
-* 一个文本编辑器
+- 一款文本编辑器
 
-> 推荐是 [NotePad++](https://notepad-plus-plus.org/) 或 [VSCode](https://code.visualstudio.com/), 虽然 Windows 自带的 NotePad 也能用,<br>**但是**,如果要做一个优质的 Mod 的话,一个好的文本编辑器可以减少你的**很多很多很多**麻烦
-> 普通 mod 请随意, 优质 Mod 或插件开发强烈推荐 VSCode
+> 推荐使用 [VSCode](https://code.visualstudio.com/) 或 [NotePad++](https://notepad-plus-plus.org/)；
+> 如果您希望一步到位制作一个优秀的模组，一款优秀的文本编辑器必不可少。
 
-* [熟悉 Json 的格式](https://github.com/MajsoulPlus/majsoul-plus/wiki/Format)
+> **警告：** 如果您是 Windows 用户，请**不要**使用「记事本」进行编辑！
 
-> 其实这个是不急的,雀魂+的readme文档中的 [制作模组](https://github.com/MajsoulPlus/majsoul-plus#%E5%88%B6%E4%BD%9C%E6%A8%A1%E7%BB%84) 条目给出了一个详细的模板,基本只要照抄然后改动其中一部分,是不可能会出什么大问题的
+- [熟悉 Json 文件的格式](https://github.com/MajsoulPlus/majsoul-plus/wiki/Format)
 
-* 修改编码格式统一为 `UTF-8` (一般不需要改,但是也可能会有这方面问题)
+> 您亦可参考，雀魂 Plus README 文档中的 [制作模组](https://github.com/MajsoulPlus/majsoul-plus#%E5%88%B6%E4%BD%9C%E6%A8%A1%E7%BB%84) 部分的 'mod.json' 文件模板，您可以参考这个文件进行编辑操作。
 
-* 切换至半角符号(**必需**)(**重要**)
+- 修改编码格式统一为 `UTF-8 无 BOM` （一般情况下无需修改，不排除出现错误的可能性）
 
-> (**一定**有人会犯这方面的错)
-> (一个好的文本编辑器会自动检测并高亮指出错误甚至还能自动修正错误)
+- **务必**使用半角符号
 
-~~四零:连这个都不懂做个屁mod~~
+~~四零：连这个都不懂做个屁 Mod~~
