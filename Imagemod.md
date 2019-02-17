@@ -39,7 +39,7 @@
 ---
 
 ## 二、改图
-- 第一步，在改图的这个步骤里我们以~~柚子社最新最热作品RiddleJoker中的~~茉优学姐来作为例子修改八木唯的立绘。
+- 第一步，在改图的这个步骤里我们以 ~~柚子社最新最热作品RiddleJoker中的~~ 茉优学姐来作为例子修改八木唯的立绘。
 首先你要有这么一张立绘，它的大小要超过原素材的任何一张，如果你不想让你的~~waifu~~角色变成马赛克的的话。
 ![一张美丽的立绘](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/3.png?raw=true)
 ---
@@ -72,17 +72,17 @@
 - 当然，你也可以从头开始制作模组包。
 -这里请仔细阅读[模组制作入门](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/CourseMod.md)中的**认识目录**和**新建模组**部分。
 
-- 那么既然你已经懂了如何打包模组资源，那你接下来需要的东西就只有一个：**对应角色立绘的路径**
+那么既然你已经懂了如何打包模组资源，那你接下来需要的东西就只有一个：**对应角色立绘的路径**
 由于资源加密，路径不是那么好在开发者工具中看到，方便起见在这里直接列出目前角色立绘的路径：
 
-   一姬`~0/v0.4.1.w/extendRes/charactor/yiji/`
-二阶堂`~/0/v0.4.83.w/extendRes/charactor/erjietang/`
-爽哥`~0/v0.4.1.w/extendRes/charactor/qianzhi/`
-巫女`~0/v0.4.1.w/extendRes/charactor/xiangyuanwu/`
-抚子`~0/v0.4.1.w/extendRes/charactor/fuzi/`
-加奈`~0/v0.4.1.w/extendRes/charactor/jianai/`
-八木`~/0/v0.4.237.w/extendRes/charactor/bamuwei/`
-九条`~/0/v0.4.237.w/extendRes/charactor/jiutiao/`
+- 一姬`~0/v0.4.1.w/extendRes/charactor/yiji/`
+- 二阶堂`~/0/v0.4.83.w/extendRes/charactor/erjietang/`
+- 爽哥`~0/v0.4.1.w/extendRes/charactor/qianzhi/`
+- 巫女`~0/v0.4.1.w/extendRes/charactor/xiangyuanwu/`
+- 抚子`~0/v0.4.1.w/extendRes/charactor/fuzi/`
+- 加奈`~0/v0.4.1.w/extendRes/charactor/jianai/`
+- 八木`~/0/v0.4.237.w/extendRes/charactor/bamuwei/`
+- 九条`~/0/v0.4.237.w/extendRes/charactor/jiutiao/`
 > 提示：老角色中，只有二阶堂因为更新过所以版本号不一样，八木和九条是新角色，所以版本号也不一样
 
 - 接下来，了解了资源路径之后你就可以开始打包模组了，在`/mod/你的模组名字/files`里面照搬上面的路径，如图。
