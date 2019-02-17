@@ -35,9 +35,9 @@
 
 #### 社区维护源
 
-| 平台                  | 维护者                      | 安装命令                         |
-| --------------------- | --------------------------- | -------------------------------- |
-| Homebrew Cask / macOS | @CaptainYukinoshitaHachiman | `brew cask install majsoul-plus` |
+| 平台                  | 维护者                                                       | 安装命令                         |
+| --------------------- | ------------------------------------------------------------ | -------------------------------- |
+| Homebrew Cask / macOS | [@CaptainYukinoshitaHachiman](https://github.com/CaptainYukinoshitaHachiman) | `brew cask install majsoul-plus` |
 
 ### 自动更新
 
