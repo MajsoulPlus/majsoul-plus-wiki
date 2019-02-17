@@ -9,7 +9,7 @@
 
 > 推荐是 [Notepad++](https://Notepad-plus-plus.org/) 或 [VSCode](https://code.visualstudio.com/) , 如果要做一个优质的 mod 的话,一个好的文本编辑器可以减少你的**很多很多很多**麻烦
 
-* [熟悉 Json 的格式](https://github.com/MajsoulPlus/majsoul-plus/wiki/Format)
+* [熟悉 JSON 的格式](https://github.com/MajsoulPlus/majsoul-plus/wiki/Format)
 
 > 其实这个是不急的,雀魂+的readme文档中的 [制作模组](https://github.com/MajsoulPlus/majsoul-plus#%E5%88%B6%E4%BD%9C%E6%A8%A1%E7%BB%84) 条目给出了一个详细的模板,基本只要照抄然后改动其中一部分,是不可能会出什么大问题的
 
