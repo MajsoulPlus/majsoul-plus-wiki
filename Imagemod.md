@@ -17,7 +17,7 @@
 - 第一步，打开雀魂官网，同时按下F12打开开发者工具
 ![F12获取资源](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/1.png?raw=true)
 
-如图，选择Network，然后选择Img来查看网页的图片资源，这里应该会需要按一下 Ctrl+R 来重启一遍网页
+- 如图，选择Network，然后选择Img来查看网页的图片资源，这里应该会需要按一下 Ctrl+R 来重启一遍网页
 重启完之后网页的图片素材就会琳琅满目的显示在列表里。
 ---
 - 第二步，你需要过一遍角色图片会出现的地方来让列表里出现**全部5张**你需要的图片模板
