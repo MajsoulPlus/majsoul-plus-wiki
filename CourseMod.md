@@ -1,6 +1,6 @@
 # 模组制作入门
 
-本页面将会从零开始一步一步教你制作一个『[雀魂 Plus](https://github.com/MajsoulPlus/majsoul-plus)』的模组。
+本页面将会从零开始一步一步教你制作一个『[雀魂 Plus 浏览器](https://github.com/MajsoulPlus/majsoul-plus)』的模组。
 
 ## 事前准备
 
