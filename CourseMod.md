@@ -13,11 +13,13 @@
 
 - [熟悉 JSON 文件的格式](https://github.com/MajsoulPlus/majsoul-plus/wiki/JsonFormat)
 
+> 您亦可参考，雀魂 Plus README 文档中的 [制作模组](https://github.com/MajsoulPlus/majsoul-plus#%E5%88%B6%E4%BD%9C%E6%A8%A1%E7%BB%84) 部分的 'mod.json' 文件模板，您可以参考这个文件进行编辑操作。
+
+- 修改编码格式统一为 `UTF-8 无 BOM` （一般情况下无需修改，不排除出现错误的可能性）
+
 - **务必**使用半角符号
 
 ~~四零：连这个都不懂做个屁 Mod~~
-
-## 文件结构
 
 ## 文件结构
 
@@ -418,25 +420,41 @@
 如：要替换的文件为 `/resources/app/static/0/v0.4.1.w/scene/Assets/Resource/tablecloth/tablecloth_default/Table_Dif.jpg`
 
 你需要建立路径：
+## 认识目录
 
-`/resources/app/mod/mymod/files/0/v0.4.1.w/scene/Assets/Resource/tablecloth/tablecloth_default`
+- 游戏数据缓存目录
+  - `(雀魂 Plus 根目录)/resources/app/static/` 
 
-并在其下放置名为 `Table_Dif.jpg` 的文件以替换缓存
+> **警告：** 请**不要**直接在缓存目录中修改文件, 以免清除缓存后文件丢失
 
-## 测试&打包模组
+- 模组存放位置
+  - `(雀魂 Plus 根目录)/resources/app/mod/`
+- 插件存放位置
+  - `(雀魂 Plus 根目录)/resources/app/execute/`
+- 工具存放位置
+  - `(雀魂 Plus 根目录)/resources/app/tool/`
+  
+> **注：** 若您勾选了 `「使用 AppData 存储拓展资源」` 则游戏数据及模组等内容不会存储在上述目录中, 而将会存储在AppData文件夹中
 
-打开雀魂 Plus 浏览器，选择左侧的"模组"页面，若前面的步骤进行无误，你应该能看到你自己的模组，模组右下角的开关默认为未启用状态，需要手动启用，可以启动游戏进行测试
+## 新建模组
 
-测试无问题后，点击右上角纸笔图标，此时模组右下角的开关位置变为了删除和打包选项（再点击一次可恢复），点击打包并选择保存位置即可
+1. 在「模组存放位置」下, 新建文件夹并命名(后称为模组文件夹)
 
-## 附录：进阶功能
+- **模组命名规范：** 
+  1. 以 `(主要内容)` 为名称
+  2. 以 `(素材名称)-(替换内容)` 为名称
+  3. 后续补充
 
-清单文件中的 `replace` 字段与 `execute` 字段均为可选功能：
+2. (必要)在模组文件夹中, 新建 `mod.json` 文件, 并复制 README 文档中 [制作模组](https://github.com/MajsoulPlus/majsoul-plus#%E5%88%B6%E4%BD%9C%E6%A8%A1%E7%BB%84) 部分的 'mod.json' 文件模板, 保存 
 
-- 前者可将不同路径的文件指向同一替换文件，一定程度上防止版本更新造成的 mod 失效 & 避免重复文件难以维护，需要一定正则表达式基础
-- 后者可运行自定义脚本以完成一些高级功能，需要一定 `javascript` 基础（请参考 `README` 文档中[开发插件](https://github.com/MajsoulPlus/majsoul-plus#开发插件)部分）
+3. (非必要但推荐)在模组文件夹中, 选择一个 **256 * 256** 像素图片当作预览图
 
-[正则表达式入门教程](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions)
+4. (必要)在模组文件夹中, 根据 `mod.json` 文件中 `dir` 的值创建文件夹, 默认值为 `/files`
 
-[javascript 入门教程](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps)
+## 简易制作模组流程
 
+1. 从「游戏数据缓存目录」中选取想要修改的内容, 从 `/0` 文件夹开始复制目录到模组文件夹中
+2. 修改 `mod.json` 文件中的 `"name"` 条目为「模组的名称」
+3. 修改 `mod.json` 文件中的 `"author"` 条目为「作者的名字」
+4. 修改 `mod.json` 文件中的 `"description"` 条目为「模组的简介」
+5. 开始修改/替换已经复制的内容
