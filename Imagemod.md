@@ -55,12 +55,12 @@
 ---
 
 - 第四步，在我自己改图的时候，发现其他四张没有问题，就是鸣牌时的半身像
-不知雀魂官方怎么处理这张图片的，就算两张图片的比例一模一样，只要半身像的左右**留了空白的透明部分**，它就会自动给你拉伸[[来源请求]](https://zh.wikipedia.org/wiki/Wikipedia:%E6%9D%A5%E6%BA%90%E8%AF%B7%E6%B1%82)
+不知雀魂官方怎么处理这张图片的，就算两张图片的比例一模一样，只要半身像的左右**留了空白的透明部分**，它就会自动给你拉伸[](https://zh.wikipedia.org/wiki/Wikipedia:%E6%9D%A5%E6%BA%90%E8%AF%B7%E6%B1%82)
 > 目前纵向没有出现过这种情况，也有可能是个例，请各位自行研究
 - 所以为了解决这个问题，我耍了小聪明，在图片最下方加了一层淡淡的黑色阴影来填充立绘左右的透明部分。才使得图片不被拉伸
- ![半身像](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/6.png?raw=true)
+![改图](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/6.png?raw=true)
 
-- ![半身像](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/7.png?raw=true)
+![半身像](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/7.png?raw=true)
 ---
 - 这些问题都顺利的处理完成后，我们的改图步骤就大功告捷啦！
 现在你的文件夹看起来应该是这样的
