@@ -60,5 +60,5 @@
 4. 不可包含注释
 5. 没有骚操作，什么计算表达式，`getter` / `setter`，`__proto__`，其它数据类型，统统不存在的
 
-若仍想继续了解，可以参考 [json.org](json.org)
+若仍想继续了解，可以参考 [json.org](http://json.org/)
 
