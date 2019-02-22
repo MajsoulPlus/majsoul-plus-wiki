@@ -34,6 +34,7 @@
   - `(雀魂 Plus 根目录)/resources/app/tool/`
 
 > **注：** 若您勾选了 `「使用 AppData 存储拓展资源」` 则游戏数据及模组等内容不会存储在上述目录中，而将会存储在您的系统用户程序数据文件夹中，如 Windows 下则为 `%appdata%/Majsoul Plus`
+
 > **再注：** macOS 系统下对应的前缀路径为 `Majsoul Plus.app/Contents/Resources/app` ，且不管你勾还是不勾 `「使用 AppData 存储拓展资源」` ，它都在那里~~不离不弃~~。
 
 ## 创建新模组
