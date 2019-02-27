@@ -3,6 +3,7 @@
 - 常用功能
   - [设置项](https://github.com/MajsoulPlus/majsoul-plus/wiki/Settings)
   - [快捷键](https://github.com/MajsoulPlus/majsoul-plus/wiki/Shortcuts)
+  - [OBS 捕获](https://github.com/MajsoulPlus/majsoul-plus/wiki/OBS)
 - [常见问题](https://github.com/MajsoulPlus/majsoul-plus/wiki/FAQ)
 - [制作模组](https://github.com/MajsoulPlus/majsoul-plus/wiki/CourseMod)
   - [制作立绘](https://github.com/MajsoulPlus/majsoul-plus/wiki/Imagemod)
