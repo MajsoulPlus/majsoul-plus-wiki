@@ -9,4 +9,9 @@
 5. 窗口匹配优先级选择「匹配标题，否则查找同样可执行程序的窗口」
 6. 点击「确定」
 
+## 图片教程
+
+1. ![第一步](https://github.com/40chyan/majsoul-plus-wiki/blob/master/OBS_pics/1.png?raw=true "第一步")
+2. ![第二步](https://github.com/40chyan/majsoul-plus-wiki/blob/master/OBS_pics/2.png?raw=true "第二步")
+3. ![第三步](https://github.com/40chyan/majsoul-plus-wiki/blob/master/OBS_pics/3.png?raw=true "第三步")
 您现在就可以在 OBS 浏览窗口中看到「雀魂」的游戏界面了
