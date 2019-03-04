@@ -15,7 +15,7 @@
 
 > 如果你没有模板，那么直接从官方的资源中获取你想要修改的图片会省去你调整图片比例的很多功夫
 - 第一步，打开雀魂官网，同时按下 F12 打开开发者工具
-![F12获取资源](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/1.png?raw=true)
+![F12获取资源](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/imagemod_pics/1.png?raw=true)
 
 - 如图，选择 Network ，然后选择 Img 来查看网页的图片资源，这里应该会需要按一下 Ctrl+R 来刷新一遍网页
 重启完之后网页的图片素材就会琳琅满目的显示在列表里。
@@ -33,7 +33,7 @@
   
 - 当你的游戏中出现过这些图片，那么你就可以在 F12 的资源列表里找到这张图，由于加密的原因，他们的文件名暂时都是 **乱码** （如图所示，其实是 [UUID](https://w3c.github.io/FileAPI/#unicodeBlobURL) ，但不必深入了解）
 - 将五张图片全都保存下来，存在一个文件夹里，将它们的文件名一一修改，完成后基本上就是如图所示：
-![改好名字的图片资源](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/2.png?raw=true)
+![改好名字的图片资源](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/imagemod_pics/2.png?raw=true)
 
 - 这样，我们的 mod 模板就初步完成了
 ---
@@ -41,16 +41,16 @@
 ## 二、改图
 - 第一步，在改图的这个步骤里我们以 ~~柚子社最新最热作品 RiddleJoker 中的~~ 茉优学姐来作为例子修改八木唯的立绘。
 首先你要有这么一张立绘，它的大小要超过原素材的任何一张，如果你不想让你的 ~~waifu~~ 角色变成马赛克的的话。
-![一张美丽的立绘](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/3.png?raw=true)
+![一张美丽的立绘](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/imagemod_pics/3.png?raw=true)
 ---
 - 第二步，接下来有一个虽然不必要但是从美观角度上考虑很重要的一个步骤那就是加**发光黑边**。
    如果仔细观察雀魂的每一张立绘你会发现每一个角色的立绘都是有黑色描边的，如果你自己的立绘不加上描边的话，虽然不影响使用，但是大幅影响美观，而且会让你的立绘看起来很突兀。（除非你把整个游戏的画风都改了）
 
-![加黑边](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/4.png?raw=true)
+![加黑边](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/imagemod_pics/4.png?raw=true)
 ---
 
 - 第三步，正式替换原素材的图片，记得一定要**和原素材保持图片比例的一致**，为了美观，尽量保证立绘身体的比例大小差不多。
-  ![改图](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/5.png?raw=true)
+  ![改图](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/imagemod_pics/5.png?raw=true)
   到了这一步**我们先替换除了半身像以外的图片**，因为半身像的素材在下一步可能会进行一些特殊处理。
 ---
 
@@ -58,13 +58,13 @@
   不知雀魂官方怎么处理这张图片的，就算两张图片的比例一模一样，只要半身像的左右**留了空白的透明部分**，它就会自动给你拉伸[[来源请求]](https://zh.wikipedia.org/wiki/Wikipedia:%E6%9D%A5%E6%BA%90%E8%AF%B7%E6%B1%82) （8q: 我这边的测试中，八木唯 `half.png` 左右留透明部分并没有被拉伸，各位 mod 作者等测试有问题再按以下方法改图也不迟）
 > 目前纵向没有出现过这种情况，也有可能是个例，请各位自行研究
 - 所以为了解决这个问题，我耍了小聪明，在图片最下方加了一层淡淡的黑色阴影来填充立绘左右的透明部分。才使得图片不被拉伸
-  ![改图](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/6.png?raw=true)
+  ![改图](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/imagemod_pics/6.png?raw=true)
 
-![半身像](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/7.png?raw=true)
+![半身像](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/imagemod_pics/7.png?raw=true)
 ---
 - 这些问题都顺利的处理完成后，我们的改图步骤就大功告捷啦！
   现在你的文件夹看起来应该是这样的
-  ![改图完成](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/8.png?raw=true)
+  ![改图完成](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/imagemod_pics/8.png?raw=true)
 ---
 
 ## 三、打包模组
@@ -86,14 +86,14 @@
 > 提示：老角色中，只有二阶堂因为更新过所以版本号不一样，八木和九条是新角色，所以版本号也不一样
 
 - 接下来，了解了资源路径之后你就可以开始打包模组了，在`/mod/你的模组名字/files`里面照搬上面的路径，如图。
-  ![打包模组](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/9.png?raw=true)
+  ![打包模组](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/imagemod_pics/9.png?raw=true)
 
 - 最后，一切就绪，在`/mod/你的模组名字/`里添加一下你的模组的预览图和描述，如图。
-  ![后续工作](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/10.png?raw=true)
+  ![后续工作](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/imagemod_pics/10.png?raw=true)
 ---
 ## 四、完成收尾
 - 一切就绪后，打开[雀魂 Plus](https://github.com/MajsoulPlus/majsoul-plus)的客户端或者刷新模组页面，你的模组就完成了，赶快启动测试吧
-   ![完成](https://github.com/40chyan/majsoul-plus-wiki/blob/master/imagemod_pics/11.png?raw=true)
+   ![完成](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/imagemod_pics/11.png?raw=true)
 
 ~~不要改成色图哦~~
 
