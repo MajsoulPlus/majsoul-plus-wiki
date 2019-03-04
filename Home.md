@@ -28,16 +28,19 @@
 | 桌布制作工具     | 简单的桌布制作工具，可以快速生成桌布图像                                                                                                                                                                                                                                            |
 
 ## 下载与更新
+
 ### 下载
+
 #### 直接获取最新版压缩文档
 
 - [Github Release](https://github.com/MajsoulPlus/majsoul-plus-client/releases)
 
 #### 社区维护源
 
-| 平台                  | 维护者                                                       | 安装命令                         |
-| --------------------- | ------------------------------------------------------------ | -------------------------------- |
-| Homebrew Cask / macOS | [@CaptainYukinoshitaHachiman](https://github.com/CaptainYukinoshitaHachiman) | `brew cask install majsoul-plus` |
+| 平台                  | 维护者                                                                       | 安装命令                                                           |
+| --------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| Homebrew Cask / macOS | [@CaptainYukinoshitaHachiman](https://github.com/CaptainYukinoshitaHachiman) | `brew cask install majsoul-plus`                                   |
+| Arch User Repository  | [@BruceZhang1993](https://github.com/BruceZhang1993)                         | [参考 AUR 发布页](https://aur.archlinux.org/packages/majsoul-plus) |
 
 ### 自动更新
 
