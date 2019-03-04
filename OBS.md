@@ -11,7 +11,8 @@
 
 ## 图片教程
 
-1. ![第一步](https://github.com/40chyan/majsoul-plus-wiki/blob/master/OBS_pics/1.png?raw=true "第一步")
-2. ![第二步](https://github.com/40chyan/majsoul-plus-wiki/blob/master/OBS_pics/2.png?raw=true "第二步")
-3. ![第三步](https://github.com/40chyan/majsoul-plus-wiki/blob/master/OBS_pics/3.png?raw=true "第三步")
+1. ![第一步](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/OBS_pics/1.png?raw=true)
+2. ![第二步](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/OBS_pics/2.png?raw=true)
+3. ![第三步](https://github.com/MajsoulPlus/majsoul-plus-wiki/blob/master/OBS_pics/3.png?raw=true)
+
 您现在就可以在 OBS 浏览窗口中看到「雀魂」的游戏界面了
