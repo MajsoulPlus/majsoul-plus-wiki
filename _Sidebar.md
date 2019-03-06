@@ -7,7 +7,8 @@
 - [常见问题](https://github.com/MajsoulPlus/majsoul-plus/wiki/FAQ)
 - [制作模组](https://github.com/MajsoulPlus/majsoul-plus/wiki/CourseMod)
   - [制作立绘](https://github.com/MajsoulPlus/majsoul-plus/wiki/Imagemod)
-
+- [开发插件](https://github.com/MajsoulPlus/majsoul-plus/wiki/CourseExecute)
+  - [描述文件](https://github.com/MajsoulPlus/majsoul-plus/wiki/ExecuteDesc)
   
 - 附录
   - [JSON 格式介绍](https://github.com/MajsoulPlus/majsoul-plus/wiki/JsonFormat)
