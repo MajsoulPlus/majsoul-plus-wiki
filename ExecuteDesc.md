@@ -10,5 +10,5 @@
 | `author`?      | `string`            | 作者名，可选                                                                                                                |
 | `description`? | `string`            | 描述信息，可选                                                                                                              |
 | `preview`?     | `string`            | 浏览图对比 Json 文件的相对路径，默认值为`preview.jpg`                                                                       |
-| `entry`?       | `string | string[]` | 要注入的 JS 文件相对路径，默认值为`script.js`，当这个属性的值的类型为数组时，会在同一个作用域内依次执行数组内的每个 JS 文件 |
+| `entry`?       | `string\|string[]` | 要注入的 JS 文件相对路径，默认值为`script.js`，当这个属性的值的类型为数组时，会在同一个作用域内依次执行数组内的每个 JS 文件 |
 | `sync`?        | `boolean`           | 设置代码执行时机，默认值为`false`，即在游戏加载完毕后执行，如果为`true`则为游戏加载前执行                                   |
