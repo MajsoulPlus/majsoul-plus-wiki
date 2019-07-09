@@ -10,6 +10,10 @@
 - [开发插件](https://github.com/MajsoulPlus/majsoul-plus/wiki/CourseExecute)
   - [描述文件](https://github.com/MajsoulPlus/majsoul-plus/wiki/ExecuteDesc)
 - [开发工具](https://github.com/MajsoulPlus/majsoul-plus/wiki/CourseTool)
+- 雀魂 Plus 2.x
+  - [区别与破坏性更新](https://github.com/MajsoulPlus/majsoul-plus/wiki/v2_change)
+  - [创建资源包](https://github.com/MajsoulPlus/majsoul-plus/wiki/v2_resourcepack)
+  - [开发扩展](https://github.com/MajsoulPlus/majsoul-plus/wiki/v2_extension)
+  - [开发工具](https://github.com/MajsoulPlus/majsoul-plus/wiki/v2_tool)
 - 附录
   - [JSON 格式介绍](https://github.com/MajsoulPlus/majsoul-plus/wiki/JsonFormat)
-
