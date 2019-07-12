@@ -14,7 +14,7 @@
 
 ```
 - resource_pack_name
-  - resource_pack.json
+  - resourcepack.json
   - assets
     - folderA
       - fileBinFolderA.png
@@ -29,24 +29,35 @@
 
 ```json
 {
-  "domain": "sample",
-  "name": "sample_pack",
-  "version": "1.0.0",
-  "author": "Majsoul Plus Team",
-  "description": "This is a sample resource pack.",
-  "preview": "preview.png",
+  // 以下为 metadata
+  "id": "sample", // 必填项
+  "version": "1.0.0", // 必填项
+  "name": "sample_pack", // 选填项
+  "author": "Majsoul Plus Team", // 选填项
+  "description": "This is a sample resource pack.", // 选填项
+  "preview": "preview.png", // 选填项
 
+  // 以下为资源包特有
   "dependencies": {
-    "majsoul": "^v0.5.1w",
     "majsoul_plus": "^2.0.0"
   },
   "replace": [
     "audio/sound/zeniya/fan_dora10.mp3",
-    "scene/Assets/Resource/mjpai/en/mjp_default_0/8p.png"
+    "scene/Assets/Resource/mjpai/en/mjp_default_0/8p.png",
+    {
+      "from": [
+        "audio/sound/qianzhi/lobby_normal1.mp3",
+        "audio/sound/qianzhi/lobby_normal2.mp3",
+        "audio/sound/qianzhi/lobby_normal3.mp3",
+        "audio/sound/qianzhi/lobby_normal4.mp3",
+        "audio/sound/qianzhi/lobby_normal5.mp3"
+      ],
+      "to": "audio/quack.mp3"
+    }
   ]
 }
 ```
 
 ## 可以执行的脚本呢？
 
-由于功能调整，雀魂 Plus 中的资源包目前只能起到替换资源的作用。想要实现更强大的功能，请参考[拓展](v2_extension)。
+由于功能调整，雀魂 Plus 中的资源包目前只能起到替换资源的作用。想要实现更强大的功能，请参考[扩展](v2_extension)。
