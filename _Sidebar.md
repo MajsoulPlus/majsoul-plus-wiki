@@ -17,6 +17,8 @@
   - [开发工具](https://github.com/MajsoulPlus/majsoul-plus/wiki/v2_tool)
 - 雀魂 Plus 2.x 进阶
   - [进阶概念](https://github.com/MajsoulPlus/majsoul-plus/wiki/v2_advanced)
+  - [迁移指南](https://github.com/MajsoulPlus/majsoul-plus/wiki/v2_migrate)
   - [资源包（进阶）](https://github.com/MajsoulPlus/majsoul-plus/wiki/v2_resourcepack_advanced)
+  - [扩展（进阶）](https://github.com/MajsoulPlus/majsoul-plus/wiki/v2_extension_advanced)
 - 附录
   - [JSON 格式介绍](https://github.com/MajsoulPlus/majsoul-plus/wiki/JsonFormat)
