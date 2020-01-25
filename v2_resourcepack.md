@@ -42,6 +42,7 @@
     "majsoul_plus": "^2.0.0" // 不建议使用，尚未完善
   },
   "replace": [
+  	//当前暂时不支持正则表达式
     "audio/sound/zeniya/fan_dora10.mp3",
     "scene/Assets/Resource/mjpai/en/mjp_default_0/8p.png",
     {
