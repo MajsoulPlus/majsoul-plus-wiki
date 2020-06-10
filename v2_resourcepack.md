@@ -27,7 +27,7 @@
 
 下面给出一个资源包的 `resource_pack.json` 的样例：
 
-```json
+```jsonc
 {
   // 以下为 metadata
   "id": "sample", // 必填项
