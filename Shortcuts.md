@@ -12,6 +12,6 @@
 | 置顶窗口   | `Cmd+T` (macOS) / `Ctrl+T` (Windows / Linux)         |
 | 老板键     | `Alt+X`                                              |
 | 退出程序   | `Alt+F4`                                             |
-| 开发者工具 | `Cmd+I` (macOS) / `Ctrl+I` (Windows / Linux)         |
+| 开发者工具 | `Cmd+I` (macOS) / `Ctrl+Shift+I` (Windows / Linux)         |
 
 注：截取的图片会自动保存至`用户>图片>Majsoul Plus`路径下
